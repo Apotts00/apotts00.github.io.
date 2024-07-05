@@ -1,0 +1,83 @@
+/* Format lists, background, and text */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: black;
+    margin: 0;
+    padding: 0;
+	font-size: 150%;
+	text-align: center;
+}
+header p {
+	color: black;
+	text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;	
+	text-align: center;
+}
+
+/* Use pseudo classes/elements */
+nav ul li a:hover::before {content: "\00ab";}
+nav ul li a:hover::after {content: "\00ab";} {
+    text-decoration: underline;
+	text-align: center;
+}
+
+h1 {
+    color: #B76E79;
+	text-align:center;
+	font-size: 350%;
+}
+
+h2 {
+    color: black;
+	text-align:center;
+}
+
+p {
+    line-height: 1.6;
+	text-align:center;
+	font-size: 150%;
+}
+
+/* Use contextual/attribute selectors */
+a[href*="index.html"] {
+    color: #B76E79;
+	text-align: center; 
+}
+a[href*="shadowwork.html"] {
+    color: #B76E79;
+	text-align: center;
+}
+
+a[href*="meditation.html"] {
+    color: #B76E79;
+	text-align: center;
+}
+
+a[href*="affirmations.html"] {
+    color: #B76E79;
+	text-align: center;
+}
+nav {
+	font-size: 200%;
+	display: block;
+	text-align: center;
+}
+	
+/* Include character references */
+footer {
+    font-size: 100%;
+	text-align: center;
+	color: black;
+}
+
